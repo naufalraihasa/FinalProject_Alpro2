@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- FONT GOOGLE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Yeseva+One&display=swap"
+            rel="stylesheet">
+
+        <!-- Animate Style -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+        <!-- Animate On Scroll -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- Js Preloader -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+            integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="dist/css/style.css" />
+        <title>Landing Page #1 | UAS</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="container">
+                    <div class="box-navbar">
+                        <div class="logo">
+                            <h1>Lyricaly</h1>
+                        </div>
+                        <ul class="menu">
+                            <li class="border"><a href="#home">Home</a></li>
+                            <li class="border"><a href="#services">Procedure</a></li>
+                            <li class="border"><a href="#genre">Genre</a></li>
+                            <li class="border"><a href="#about">About</a></li>
+                        </ul>
+                        <i class="fa-solid fa-bars menu-bar"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="container">
+                    <div class="box-hero">
+                        <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-offset="300"
+                            data-aos-duration="1000" class="box">
+                            <h1>
+                                Inspiration For Music <br />Create Your Own <br> Lyric Now
+                            </h1>
+
+                            <p>Click continue to generate the lyric that you want
+                            </p>
+
+                            <button>
+                                <a href="#services">Continue</a>
+                            </button>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-offset="300"
+                            data-aos-duration="1000" class="box">
+                            <img src="assets/img/img1.png" alt="">
+                        </div>
+                        <div id="services"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- services -->
+        <div class="services">
+            <div class="container">
+                <div data-aos="fade-up" data-aos-duration="1200" class="box-services">
+                    <div class="box">
+                        <i class="fa-solid fa-face-smile"></i>
+                        <h4>1. Choose your mood ! </h4>
+                        <br>
+                        <p>Lyricaly have three different mood
+                            to choose. Happy, Angry, and Sad.
+                        </p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-message"></i>
+                        <h4>2. Enter 4 Keyword</h4>
+                        <br>
+                        <p>We Create The Lyric That You Wanted Based on Your Input Keyword
+                        </p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-music"></i>
+                        <h4>3. Generate The Lyrics</h4>
+                        <br>
+                        <p>The Lyric Will be Created Instantly After You Click 'Generate'
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- services -->
+
+
+        <!-- GENRE -->
+        <div class="genre" id="genre">
+            <div class="container">
+                <div data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-offset="300" data-aos-duration="700"
+                    class="animasi-box">
+                    <h1 class="animasi"> How are you feeling?</h1>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-offset="200" data-aos-duration="700"
+                    data-aos-delay="300" class="box-genre">
+                    <div class="box">
+                        <img src="assets/img/happy.png" alt="">
+                        <h3>Happy</h3>
+                        <p>When you smile no matter how gloom the sky is
+                        </p>
+                        <button>
+                            <a href="happy.html">Create</a>
+                        </button>
+                    </div>
+                    <div class="box">
+                        <img src="assets/img/angry.png" alt="">
+                        <h3>Angry</h3>
+                        <p>When you want to punch everyone in the street.
+                        </p>
+                        <button>
+                            <a href="angry.html">Create</a>
+                        </button>
+                    </div>
+                    <div class="box">
+                        <img src="assets/img/sad.png" alt="">
+                        <h3>Sad</h3>
+                        <p>When you affected with expressive of grief or unhappiness
+                        </p>
+                        <button>
+                            <a href="sad.html">Create</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- GENRE -->
+
+        <!-- card -->
+        <div id="about" class="about-box">
+            <div data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-offset="300" data-aos-duration="700"
+                class="animasi-box">
+                <h1 class="animasi">ABOUT US</h1>
+            </div>
+            <div class="about">
+                <div class="card">
+                    <div class="circle" style="--clr:#201f1e">
+                        <img src="assets/img/naufal_logo.png" class="logo" alt="">
+                    </div>
+                    <div class="konten">
+                        <h2>Naufal Arya Raihasa</h2>
+                        <p>Data Science Technology undergraduate at Universitas Airlangga with a passion for data
+                            integrity, visualization, and statistics.</p>
+                        <a href="https://github.com/naufalraihasa">Github</a>
+                    </div>
+                    <img src="assets/img/naufal.png" class="profile_img" alt="">
+                </div>
+                <div class="card">
+                    <div class="circle" style="--clr:#201f1e">
+                        <img src="assets/img/jethro_logo.png" class="logo" alt="">
+                    </div>
+                    <div class="konten">
+                        <h2>Denis Muhammad Jethro</h2>
+                        <p> I’m interested in Data Scientist, Machine Learning, and Business. I’m currently learning
+                            Data Science in Airlangga University</p>
+                        <a href="https://github.com/Juethro">Github</a>
+                    </div>
+                    <img src="assets/img/jethro.png" class="profile_img" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- card -->
+
+        <!-- Footer  -->
+
+        <div class="footer">
+            <div class="container">
+                <div class="box-footer">
+                    <div class="box">
+                        <h2>Lyricaly</h2>
+                        <p>Lyricaly is a web app that made for a musician who need an inspiration for creating a lyric
+                            based on mood and help them generate a specific lyric with their own keyword. This web app
+                            is free to use, and made simple for user friendly experience. We hope that this app can help
+                            many people and bring inspiration for every user.</p>
+                    </div>
+                    <div class="box">
+                        <h3>Contacts</h3>
+                        <a href="mailto: naufal.arya.raihasa-2021@ftmm.unair.ac.id">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>naufal.arya.raihasa-2021@ftmm.unair.ac.id</span>
+                        </a>
+                        <a href="https://www.instagram.com/novalraihasa/">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>@novalraihasa</span>
+                        </a>
+                        <a href="mailto: denis.muhammad.jethro-2021@ftmm.unair.ac.id">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>denis.muhammad.jethro-2021@ftmm.unair.ac.id</span>
+                        </a>
+                        <a href="https://www.instagram.com/denis_jethro/">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>denis_jethro</span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <p>&copy; Copyright by <span>Naufal & Jethro</span> All Rights Reserved 2022, Surabaya</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer  -->
+        <!-- Js -->
+        <script src="dist/js/script.js"></script>
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+
+</html>

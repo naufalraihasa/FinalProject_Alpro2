@@ -1,0 +1,6 @@
+/venv
+web_uas/model
+__pycache__/
+.h5
+web_uas/
+model/
